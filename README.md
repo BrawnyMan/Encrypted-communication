@@ -20,9 +20,10 @@ bash createUser.sh [username]
 ```
 or
 ```bash
-chmod +x crecreateUser.sh
+chmod +x createUser.sh
 ./createUser.sh [username]
 ```
+When you add user, the user.key and user.crt will be added in clients/certs and clients/privateKeys forlder. In the server folder there is "clients.pem" file in which are all certifications of users that server will accept.
 
 >Commands for client:
 - `/msg [user] [message]` - messsage user privately
