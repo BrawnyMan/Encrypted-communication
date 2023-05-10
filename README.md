@@ -14,7 +14,7 @@ python chatClient.py
 
 > At the start
 
-At the start you will be prompted to choose user, which are avaliable (have certification). You will join the chat with that name. You can add new user names with command in terminal:
+At the start, you will be prompted to choose between users who are available (have certification). You will join the chat with that name. You can add new user names with the following command in the terminal:
 ```bash
 bash createUser.sh [username]
 ```
@@ -23,8 +23,8 @@ or
 chmod +x createUser.sh
 ./createUser.sh [username]
 ```
-When you add user, the user.key and user.crt will be added in clients/certs and clients/privateKeys forlder. In the server folder there is "clients.pem" file in which are all certifications of users that server will accept.
+When you add a user, the user.key and user.crt will be added to the clients/certs and clients/privateKeys folders. In the server folder, there is a "clients.pem" file, in which are all the certifications of users that the server will accept.
 
->Commands for client:
-- `/msg [user] [message]` - messsage user privately
+> Commands for the client:
+- `/msg [user] [message]` - message the user privately
 - `/exit` - leave the chat
