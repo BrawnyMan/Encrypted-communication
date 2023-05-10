@@ -14,7 +14,7 @@ python chatClient.py
 
 > At the start
 
-At the start, you will be prompted to choose between users who are available (have certification). You will join the chat with that name. You can add new user names with the following command in the terminal:
+At the start, you will be prompted to choose between users who are available (have certification). You will join the chat with that name. Everything you write will be displayed to all connected clients/users. You can add new user names with the following command in the terminal:
 ```bash
 bash createUser.sh [username]
 ```
